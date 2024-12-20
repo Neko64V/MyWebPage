@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
 body {
-    background-color:aliceblue;
+    display: flex;
+    margin: 0%;
+}  
+
+#TopPage {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-color:white;
+}
+
+#TopPage h1 {
+    margin: 0;
+    font-size: 50px;
+    color: black;
+}
+
+.LinkItems {
+    display: flex;
+    gap: 20px; /* 画像間の間隔を設定 */
+    justify-content: center; /* 画像を中央揃えに */
+    list-style: none; /* リストのマーカーを非表示に */
+    padding: 0; /* リストの余白を削除 */
+}
+
+.LinkItems li {
+    display: inline-block;
 }
