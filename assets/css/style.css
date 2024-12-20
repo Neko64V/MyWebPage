@@ -2,10 +2,14 @@
 
 body {
     display: flex;
-    margin: 0%;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+
+    background-color:rgb(255, 255, 255);
 }  
 
-#TopPage {
+#pTitle {
     width: 100vw;
     height: 100vh;
 
@@ -14,23 +18,83 @@ body {
     justify-content: center; 
     align-items: center;
     text-align: center;
-    background-color:white;
+    background-color:rgb(34, 34, 34);
 }
 
-#TopPage h1 {
+#pTitle h1 {
     margin: 0;
-    font-size: 50px;
-    color: black;
+    font-size: 65px;
+    color: white;
+}
+
+#CTXPage {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.p_MyImage {
+    width: 50vw;
+    height: 100vh;
+
+    min-width: 400px;
+    min-height: 400px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.p_MyImage img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+    transition: scale 0.3s;
+}
+
+.p_MyImage img:hover {
+    scale: 1.025;
+}
+
+#p_AboutMe {
+    width: 50vw;
+    height: 100vh;
+
+    min-width: 400px;
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+    text-align: left;
 }
 
 .LinkItems {
+    gap: 35px;
+    padding: 0;
+
     display: flex;
-    gap: 20px; /* 画像間の間隔を設定 */
-    justify-content: center; /* 画像を中央揃えに */
-    list-style: none; /* リストのマーカーを非表示に */
-    padding: 0; /* リストの余白を削除 */
+    justify-content: left;
 }
 
-.LinkItems li {
-    display: inline-block;
+#p_Copyright {
+    width: 100vw;
+    height: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+
+a {
+    transition: scale 0.3s;
+}
+
+a:hover {
+    scale: 1.075;
 }
