@@ -2,7 +2,7 @@
 supernekochan.moe で使用するシンプルなWebサイトのプロジェクト。  
 
 ### Icon
-ロゴは公式で配布されている以下のものを使用しました。あとで "p_Copyright" に追加しておく。
+ロゴは公式で配布されている以下のものを使用しました。
 * X  
   https://about.x.com/ja/who-we-are/brand-toolkit
 * Misskey  
