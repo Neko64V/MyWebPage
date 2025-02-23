@@ -5,12 +5,10 @@ body {
     flex-direction: column;
     margin: 0;
     box-sizing: border-box;
-
     background-color:rgb(255, 255, 255);
 }  
 
-#pTitle {
-    width: 100vw;
+#m_Title {
     height: 100vh;
 
     display: flex;
@@ -21,14 +19,13 @@ body {
     background-color:rgb(34, 34, 34);
 }
 
-#pTitle h1 {
+#m_Title h1 {
     margin: 0;
     font-size: 65px;
     color: white;
 }
 
-#CTXPage {
-    width: 100vw;
+#m_Main {
     height: 100vh;
 
     display: flex;
@@ -38,7 +35,7 @@ body {
     text-align: center;
 }
 
-.p_MyImage {
+.m_MyImage {
     width: 50vw;
     height: 100vh;
 
@@ -50,16 +47,16 @@ body {
     align-items: center;
 }
 
-.p_MyImage img {
+.m_MyImage img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
     transition: scale 0.3s;
 }
 
-.p_MyImage img:hover {
+.m_MyImage img:hover {
     scale: 1.015;
 }
 
-#p_AboutMe {
+#m_AboutMe {
     width: 50vw;
     height: 100vh;
 
@@ -69,11 +66,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-
     text-align: left;
 }
 
-.LinkItems {
+.m_LinkItems {
     gap: 35px;
     padding: 0;
 
@@ -81,8 +77,7 @@ body {
     justify-content: left;
 }
 
-#p_Copyright {
-    width: 100vw;
+#m_Copyright {
     height: 5vh;
 
     display: flex;
