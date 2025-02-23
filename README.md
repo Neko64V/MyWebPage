@@ -1,5 +1,5 @@
 # Web
-supernekochan.moe で使用するシンプルなWebサイトのプロジェクト。  
+https://supernekochan.moe で使用するシンプルなWebサイトのプロジェクト。  
 
 ### Icon
 ロゴは公式で配布されている以下のものを使用しました。
@@ -11,3 +11,5 @@ supernekochan.moe で使用するシンプルなWebサイトのプロジェク�
   https://github.com/logos
 * VRChat  
   https://hello.vrchat.com/press
+* Pixiv/Booth  
+  https://www.pixiv.co.jp/news/press-kit/
